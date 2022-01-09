@@ -65,9 +65,9 @@ const speak = () => {
   }
   if (textInput.value !== '') {
     // Add background animation
-    body.style.background = '#ffffff url(img/wave.gif)';
-    body.style.backgroundRepeat = 'repeat-x';
-    body.style.backgroundSize = '100% 100%';
+    //body.style.background = '#ffffff url(img/wave.gif)';
+    //body.style.backgroundRepeat = 'repeat-x';
+    //body.style.backgroundSize = '100% 100%';
 
     // Get speak text
     const speakText = new SpeechSynthesisUtterance(textInput.value);
